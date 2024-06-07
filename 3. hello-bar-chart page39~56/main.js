@@ -1,3 +1,12 @@
+/* 資料整理 函式
+   使用方式：unpack(資料, 指定取的資料)
+*/
+function unpack(rows, key) {
+    return rows.map(function (row) {
+        return row[key];
+    });
+}
+
 /* =========== p39 ~ p45 ============ */
 // 取得 index.html id 命名為 ‘myGraph’ div區塊, 並將結果放在 myGraph 變數中
 let myGraph = document.getElementById('myGraph');
@@ -58,16 +67,6 @@ let layout2 = {
 
 Plotly.newPlot(myGraph2, data2, layout2);
 
-
-
-/* 資料整理 函式
-   使用方式：unpack(資料, 指定取的資料)
-*/
-function unpack(rows, key) {
-    return rows.map(function (row) {
-        return row[key];
-    });
-}
 
 /* =========== 練習 ============ */
 let test = document.getElementById('test');

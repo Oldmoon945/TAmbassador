@@ -1,0 +1,19 @@
+#test {
+    display: flex;
+}
+
+#test_pie1 {
+    width: 30%;  /* 寬度 */
+    height: 400px; /* 高度 */
+    margin: 10px;  /* 周圍距離 */
+}
+#test_pie2 {
+    width: 30%;  /* 寬度 */
+    height: 400px; /* 高度 */
+    margin: 10px;  /* 周圍距離 */
+}
+#test_pie3 {
+    width: 30%;  /* 寬度 */
+    height: 400px; /* 高度 */
+    margin: 10px;  /* 周圍距離 */
+}

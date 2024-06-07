@@ -3,7 +3,7 @@
         <!-- 註解：將網頁字元編碼轉譯成 "utf-8" -->
         <meta charset="utf-8">
         <!-- 註解：網頁標題 -->
-        <title>測驗1、哈利波特電影數據圖</title>
+        <title>hello-bar-chart page39~56</title>
         <!-- 註解：引入本地 style.css 程式 -->
         <link rel="stylesheet" href="style.css">
     </head>
@@ -13,24 +13,28 @@
             <ul>
                 <li>
                     <strong>資料:</strong>
-                    <a href="https://github.com/ryanchung403/dataset/blob/main/harry_potter.csv">連結</a>
+                    <a href="https://github.com/ryanchung403/dataset/blob/main/train_data_titanic.csv">連結</a>
                 </li>
                 <li>
-                    <strong>圖表類型:</strong>
-                    <span>折線圖</span>
+                    <strong>圓餅圖1:</strong>
+                    <span>存活率</span>
                 </li>
                 <li>
-                    <strong>X軸:</strong>
-                    <span>發行年份(release_year)</span>
+                    <strong>圓餅圖2:</strong>
+                    <span>性別</span>
                 </li>
                 <li>
-                    <strong>Ｙ軸:</strong>
-                    <span>收益(revenue)、預算(budget)</span>
+                    <strong>圓餅圖3:</strong>
+                    <span>登船港口畫圓餅圖</span>
                 </li>
             </ul>
         </div>
-        <!-- 註解：在頁面中新增 id 命名為 myGraph 區塊 -->
-        <div id="myGraph"></div>
+        <div id="test">
+            <span id="test_pie1"></span>
+            <span id="test_pie2"></span>
+            <span id="test_pie3"></span>
+        </div>
+
         <!-- 註解：Plotly 官網連結 https://plotly.com/javascript/getting-started/ -->
         <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
         <script src="//unpkg.com/d3"></script>
