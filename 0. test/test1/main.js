@@ -6,7 +6,9 @@ d3.csv("https://raw.githubusercontent.com/ryanchung403/dataset/main/harry_potter
     }
 );
 
-// 資料整理 函式
+/* 資料整理 函式
+   使用方式：unpack(資料, 指定取的資料)
+*/
 function unpack(rows, key) {
     return rows.map(function (row) {
         return row[key];

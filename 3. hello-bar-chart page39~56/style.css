@@ -3,4 +3,19 @@
     width: 600px;  /* 寬度 */
     height: 400px; /* 高度 */
     border: 1px solid #ccc; /* 邊寬 */
+    margin: 10px;  /* 周圍距離 */
+}
+
+#myGraph2 {
+    width: 600px;  /* 寬度 */
+    height: 400px; /* 高度 */
+    border: 1px solid #ccc; /* 邊寬 */
+    margin: 10px;  /* 周圍距離 */
+}
+
+#test {
+    width: 600px;  /* 寬度 */
+    height: 400px; /* 高度 */
+    border: 1px solid #ccc; /* 邊寬 */
+    margin: 10px;  /* 周圍距離 */
 }
