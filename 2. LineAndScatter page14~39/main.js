@@ -39,7 +39,7 @@ let trace3 = {
     text: [] // p29 ~ 35 放置文字
 }
 
-// 使用迴圈，將 data.js 中的變數 “set1” 變數中的資料放到 “trace1” 變數中
+// 使用迴圈，將 data.js 中的變數資料放到 “trace” 變數中
 for (let i = 0 ; i < set1.length ; i ++) {
     // p14 ~ 20
     trace1.x[i] = set1[i][0];
@@ -56,7 +56,7 @@ for (let i = 0 ; i < set1.length ; i ++) {
     trace3.text[i] = set3[i][2];
 }
 
-// 新增變數 “data” 並將 “trace1” 放到 ”data“ 中
+// 新增變數 “data” 並將 “trace” 放到 ”data“ 中
 let data = [];
 data.push(trace1); // p14 ~ 20
 data.push(trace2); // p21 ~ 24
