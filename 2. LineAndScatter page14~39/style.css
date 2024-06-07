@@ -1,0 +1,5 @@
+#myGraph {
+    width: 600px;  /* 寬度 */
+    height: 400px; /* 高度 */
+    border: 1px solid #ccc; /* 邊寬 */
+}
