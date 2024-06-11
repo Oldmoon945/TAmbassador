@@ -101,8 +101,7 @@ let layout3 = {
         text: 'p108 ~ p111',
         y: 0.05, 
         yanchor: 'bottom',  // 標題垂直對齊底部
-    }
-    
+    }    
 };
 
 Plotly.newPlot('myGraph3', data3, layout3 )
