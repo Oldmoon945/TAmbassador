@@ -28,7 +28,7 @@ let layout = {
 
 Plotly.newPlot(myGraph, data, layout);
 
-/* =========== p66 ~ p75 ============ */
+/* =========== p66 ~ p77 ============ */
 let myGraph2 = document.getElementById('myGraph2');
 
 let trace2_1 = {
@@ -87,7 +87,7 @@ data2.push(trace2_4);
 
 let layout2 = {
     margin : 50,
-    title: 'p59 ~ p65',
+    title: 'p66 ~ p77',
     grid: {
         rows: 2,
         columns: 2
