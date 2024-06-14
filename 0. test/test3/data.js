@@ -1,0 +1,1 @@
+let dataURL = "./data/World_GDP.csv"

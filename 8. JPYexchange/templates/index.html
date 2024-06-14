@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JPYexchange</title>
+</head>
+<body>
+    <div id="line-chart" style="width:600px;height: 250px;"></div>
+    <div id="exchangeData" style="visibility: hidden;"> {{exchangeData}} </div>
+
+    <!-- Plotly 官網連結 https://plotly.com/javascript/getting-started/ -->
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js" charset="utf-8"></script>
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <!-- 將網頁字元編碼轉譯成 "utf-8" -->
+        <meta charset="utf-8">
+        <!-- 網頁標題 -->
+        <title>2022年各國ＧＤＰ指數</title>
+        <!-- 引入本地 style.css 程式 -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <p>使用以下網頁資料，畫出各國2022年各國ＧＤＰ指數</p>
+            <p>https://data.worldbank.org/topic/climate-change?view=chart</p>
+        </div>
+        <div id="myGraph"></div>
+
+        <!-- Plotly 官網連結 https://plotly.com/javascript/getting-started/ -->
+        <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+        <!-- 引入本地 data.js 程式 -->
+        <script src="data.js"></script>
+        <!-- 引入靜態資源 CDN 服務 -->
+        <script src="//unpkg.com/d3"></script>
+        <!-- 引入本地 main.js 程式 -->
+        <script src="main.js"></script>
+    </body>
+</html>

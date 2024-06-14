@@ -3,6 +3,7 @@ let geo_url = "./data/taiwan_geo.json";
 let test_data_url = "./data/113_5data.xls"
 
 // p12
+// Promise 確保資料都到手
 Promise.all([
     d3.json(data_url), d3.json(geo_url)
 ]).then(function(data) {
