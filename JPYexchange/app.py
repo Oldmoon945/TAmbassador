@@ -8,12 +8,13 @@ def formPage():
 
     # 確認資料是否有空值
     df.isnull().sum()
+
     # 刪除不必要的資料
-    df.drop(df.iloc[:, 5:],axis=1,inplace=True)
-    df.drop(df.iloc[:, 2:4],axis=1,inplace=True)
+    df.drop(df.iloc[:, 5:],axis=1,inplace=True) # 第 5 行後都刪掉
+    df.drop(df.iloc[:, 2:4],axis=1,inplace=True) # 刪掉 第2行到3行刪掉
     # 重新命名欄位名稱英文
-    df.columns=["data","usd-twd","usd-jpy"]
-    df.head()
+    df.columns=["date","usd-twd","usd-jpy"]
+    df.head() # 查看表格當前結果語法
     # 新增需求欄位
     df['twd-jpy']=df['usd-twd'] / df['usd-jpy']
     # 刪除不必要的欄位與資料
