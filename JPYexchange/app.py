@@ -18,7 +18,7 @@ def formPage():
     # 新增需求欄位
     df['twd-jpy']=df['usd-twd'] / df['usd-jpy']
     # 刪除不必要的欄位與資料
-    df.drop(df.iloc[:, 1:3],axis=1,inplace=True)
+    # df.drop(df.iloc[:, 1:3],axis=1,inplace=True)
     df.info()
     # 轉換日期時間格式
     df['date'] =pd.to_datetime(df['date'], format='%Y%m%d')

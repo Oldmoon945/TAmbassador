@@ -3,9 +3,13 @@
 <head>
     <meta charset="utf-8">
     <title>JPYexchange</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
 </head>
 <body>
-    <div id="line-chart" style="width:600px;height: 250px;"></div>
+    <div class="row">
+        <div class="column" id="line-chart"></div>
+        <div class="column" id="line-chart-2"></div>
+    </div>
     <div id="exchangeData" style="visibility:hidden;"> {{exchangeData}} </div>
 
     <!-- Plotly 官網連結 https://plotly.com/javascript/getting-started/ -->
